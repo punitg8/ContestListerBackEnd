@@ -41,7 +41,7 @@ module.exports = {
         type: Sequelize.DATE
       }
     });
-    await queryInterface.createTable('hiring', {
+    await queryInterface.createTable('hirings', {
       id: {
         allowNull: false,
         autoIncrement: true,
@@ -81,7 +81,7 @@ module.exports = {
         type: Sequelize.DATE
       }
     });
-    await queryInterface.createTable('hackathon', {
+    await queryInterface.createTable('hackathons', {
       id: {
         allowNull: false,
         autoIncrement: true,

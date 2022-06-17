@@ -4,7 +4,7 @@ const app = express();
 const contest= require('./routes/contest');
 const hiring= require('./routes/hiring');
 const hackathon= require('./routes/hackathon');
-
+require("./controllers/cronJobController");
 
 app.use(express.json());
 app.use('/api/contest',contest);
