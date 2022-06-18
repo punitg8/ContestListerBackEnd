@@ -5,7 +5,7 @@ const getAllContest = async(req,res) =>{
     const contestInfo = await contestDbService.getAll();
     res.status(200).json({success:true,data:contestInfo});
   }catch(error){
-    res.status(404).json({success:false,msg:"Data not found"});
+    res.status(404).json({success:false,msg:"Data not found",data:error});
   }
 }
 
