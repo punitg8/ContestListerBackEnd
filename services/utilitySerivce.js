@@ -18,7 +18,7 @@ const convertData = (data) => {
       endTime: end_time,
       duration:Math.ceil(duration),
       platform: site,
-      in24Hours: in_24_hours === "NO" ? false : true,
+      in24Hours: in_24_hours === "No" ? false : true,
       onGoing: status === "BEFORE" ? false : true,
     };
   });

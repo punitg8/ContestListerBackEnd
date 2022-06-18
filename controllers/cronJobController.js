@@ -26,6 +26,6 @@ const addData = async() => {
   }
 }
 
-cron.schedule('* */6 * * *',()=>{
+cron.schedule('0 */6 * * *',()=>{
   addData();
 })
