@@ -25,7 +25,7 @@ const addData = async() => {
     console.log(err);
   }
 }
-addData();
+
 cron.schedule('0 */6 * * *',()=>{
   addData();
 })
