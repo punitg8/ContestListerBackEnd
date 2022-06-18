@@ -13,6 +13,8 @@ app.use('/api/contest',contest);
 app.use('/api/hiring',hiring);
 app.use('/api/hackathon',hackathon);
 
+app.get('/',(req,res)=>res.send("Working"));
+
 app.listen(5000,()=>{
   console.log("Currently listening on port 5000");
 })
