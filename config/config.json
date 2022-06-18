@@ -14,10 +14,10 @@
     "dialect": "postgres"
   },
   "production": {
-    "username": "postgres",
-    "password": "root",
-    "database": "contestDatabase",
-    "host": "127.0.0.1",
+    "username": "opmycttbdipozi",
+    "password": "34883e56f56bad3318224fdfc894c5d793912c90185b8883cc27bc7a3ba5b7b7",
+    "database": "d8dm3thlejjdt5",
+    "host": "ec2-23-23-182-238.compute-1.amazonaws.com",
     "dialect": "postgres"
   }
 }
